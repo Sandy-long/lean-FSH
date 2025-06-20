@@ -255,7 +255,10 @@
     </ol>
   </main>
   <footer>
-    © 2025 促卵泡激素健康科普 | 医学内容仅供参考 
+    © <span id="year"></span> 促卵泡激素健康科普
   </footer>
+  <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
